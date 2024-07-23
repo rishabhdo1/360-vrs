@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pannellum@2.5.6/build/pannellum.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h1 class="text-center">360-Degree Panorama Viewer</h1>
+            <div id="panorama" style="width: 100%; height: 500px;"></div>
+          </div>
+        </div>
+      </div>
+    
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/pannellum@2.5.6/build/pannellum.js"></script>
+      <script>
+        pannellum.viewer('panorama', {
+          "type": "equirectangular",
+          "panorama": "https://360vrs.s3.ap-south-1.amazonaws.com/PANO_20220514_183053.jpg",
+          "autoLoad": true,
+          "autoRotate": -2
+        });
+      </script> 
+</body>
+</html>
