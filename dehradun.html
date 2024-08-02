@@ -6,8 +6,36 @@
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pannellum@2.5.6/build/pannellum.css">
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
+  <div class="navbar-background">
+    <div id="navbarPanorama"></div>
+  </div>
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">AirPano Clone</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#photos">360 Photos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#videos">360 Videos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#gallery">Photo Gallery</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
     <div class="container">
         <div class="row">
           <div class="col-12">
@@ -25,7 +53,73 @@
           "panorama": "https://360vrs.s3.ap-south-1.amazonaws.com/PANO_20220514_183053.jpg",
           "autoLoad": true,
           "autoRotate": -2
+
+
         });
+       
       </script> 
-</body>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, possimus dicta neque accusantium harum totam odio eligendi! Pariatur sapiente veritatis laudantium, voluptatem similique ad dolorum impedit at excepturi sint cum.<br>
+     
+      <div class="container my-4">
+        <div class="row featurette d-flex justify-content-centre align-items-centre">
+        <div class="col-md-7 order-md-2">
+          <h2 class="featurette-heading fw-normal lh-1">First featurette heading. <span class="text-body-secondary">It’ll blow your mind.</span></h2>
+          <p class="lead">Srinagar is a beautiful city located in the Indian-administered union territory of Jammu and Kashmir. It’s renowned for its stunning landscapes, particularly its lush gardens, serene lakes, and majestic mountains. The Dal Lake, with its houseboats and Shikara rides, is one of its most famous attractions. Srinagar also has a rich cultural heritage, with historic sites like the Mughal gardens and the Jamia Masjid. The city’s unique blend of natural beauty and cultural depth makes it a special place to visit. Are you planning a trip there or just curious about the city?.</p>
+        </div>
+        <div class="col-md-5 order-md-1">
+            <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" src="https://awsupload-files.s3.ap-south-1.amazonaws.com/IMG_0578.JPG">
+          
+        </div>
+      </div>
+      </div>
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading fw-normal lh-1">Himalaya Range <span class="text-body-secondary">Mountains</span></h2>
+          <p class="lead">The Himalayan Range, often simply referred to as the Himalayas, is a vast mountain range in Asia, stretching across five countries: Bhutan, China, India, Nepal, and Pakistan. It is the highest mountain range in the world and includes some of the planet's tallest peaks, such as Mount Everest, K2, and Kangchenjunga.</p>
+        </div>
+        <div class="col-md-5">
+          <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" src="https://awsupload-files.s3.ap-south-1.amazonaws.com/IMG_0573.JPG">"
+        </div>
+        <section id="gallery" class="my-5">
+          <h2 class="text-center">Related Views</h2>
+          <div class="row">
+            <div class="col-lg-3 col-md-6 mb-4">
+              <div class="card">
+                <a href="#"><img src="https://awsupload-files.s3.ap-south-1.amazonaws.com/avatars/1715095696434-IMG_1086.jpg" class="card-img-top" alt="Image 1"></a>
+                <div class="card-body">
+                  <h5 class="card-title">Image 1</h5>
+                  <p class="card-text">Description of Image 1.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4">
+              <div class="card">
+                <img src="https://awsupload-files.s3.ap-south-1.amazonaws.com/posts/1718308159972-IMG_20220616_190115.jpg" class="card-img-top" alt="Image 2">
+                <div class="card-body">
+                  <h5 class="card-title">Image 2</h5>
+                  <p class="card-text">Description of Image 2.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4">
+              <div class="card">
+                <img src="https://awsupload-files.s3.ap-south-1.amazonaws.com/avatars/1701067839313-404daa48-39ef-470c-b527-43f038da124b-WhatsApp%2BImage%2B2023-08-15%2Bat%2B19.51.44.jpeg" class="card-img-top" alt="Image 3">
+                <div class="card-body">
+                  <h5 class="card-title">Image 3</h5>
+                  <p class="card-text">Description of Image 3.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4">
+              <div class="card">
+                <img src="https://awsupload-files.s3.ap-south-1.amazonaws.com/avatars/1714058160866-IMG_20220721_131436.jpg" class="card-img-top" alt="Image 4">
+                <div class="card-body">
+                  <h5 class="card-title">Image 4</h5>
+                  <p class="card-text">Description of Image 4.</p>
+                </div>
+              </div>
+            </div>
+          </section>
+
+    </body>
 </html>
